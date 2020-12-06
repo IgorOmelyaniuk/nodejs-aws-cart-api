@@ -1,0 +1,17 @@
+# node_modules and dist will be created within our image
+node_modules
+dist
+
+# Don't need tests for creating image
+test
+
+# Don't tests files for image
+*.spec.ts
+
+# Don't need any documentation
+*.md
+
+# Files only for development
+.eslintrc.js
+.prettierrc
+.gitignore
